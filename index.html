@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drone Event</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/drone.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="primary-header">
+        <div class="logo">
+            <p class="ff-heading uppercase"><span class="blue-text">Drone</span>.Series</p>
+        </div>
+        <nav class="primary-nav" data-visible="false">
+            <button class="nav-close"><span class="sr-only">Close menu</span></button>
+            <ul class="nav-list uppercase ff-heading">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Races</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Register</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">FAQ</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="nav-open"><span class="sr-only">Open menu</span></button>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="left-padding"></div>
+            <div class="middle">
+                <div class="hero-text flow">
+                    <h1 class="title uppercase fs-900 ff-heading">Drone Racing Gone Wild</h1>
+                    <p class="sub-title fs-400 ff-text">Register now for the ultimate drone racing event. 5 mile courses
+                        and
+                        over
+                        $10
+                        million
+                        in
+                        prize money!</p>
+                </div>
+                <div class="hero-img">
+                    <img class="drone" src="./assets/drone.png" alt="drone">
+                    <img class="blur" src="./assets/blur.png" alt="blur">
+                </div>
+            </div>
+            <div class="blue-bg"></div>
+        </section>
+        <section class="quote">
+            <div class="left-padding"></div>
+            <div class="quote-content">
+                <div class="quote-content-container flow" style="--flow-space: 3rem;">
+                    <p class="uppercase fs-600 ff-heading">“the stadium is simply unreal. scrimba hall will make this
+                        the
+                        best drone
+                        racing
+                        event ever, period.”</p>
+                    <p class="uppercase fs-400 ff-heading">&#8212; anonymous guy</p>
+                </div>
+            </div>
+        </section>
+        <section class="footage">
+            <div class="left-padding"></div>
+            <div class="footage-content">
+                <div class="footage-text flow" style="--flow-space: 1.75rem;">
+                    <h2 class="uppercase fs-800 ff-heading">last year’s footage</h2>
+                    <p class="fs-400 ff-text">With over 5,000 participants, 2020 featured some of the most amazing drone
+                        races from
+                        the most
+                        competitive field ever seen.</p>
+                    <p class="fs-400 ff-text">in 2021, we’re about to double the excitement with 10,000 race
+                        participants
+                        and
+                        100,000 fans!</p>
+                </div>
+                <div class="footage-imgs">
+                    <img class="remote" src="./assets/remote.jpg" alt="man remotely controlling a drone">
+                    <img class="gree-bg-drone" src="./assets/green-bg-drone.jpg"
+                        alt="drone flying on a green background">
+                    <img class="drone-in-sky" src="./assets/drone-in-sky.jpg" alt="done flying in the sky">
+                    <img class="view" src="./assets/view.jpg" alt="view of road and forest from above">
+                    <img class="filming-tools" src="./assets/filming-tools.jpg" alt="filming equipment on a table">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h3 class="uppercase ff-heading">Register for the event!</h3>
+
+        <div class="footer-wrapper">
+            <div class="form">
+                <form>
+                    <div>
+                        <label for="name" class="uppercase ff-heading fs-500">Name</label>
+                        <input type="text" name="name">
+                    </div>
+                    <div>
+                        <label for="email" class="uppercase ff-heading fs-500">Email</label>
+                        <input type="email" name="email">
+                    </div>
+                    <button class="btn btn-register uppercase ff-heading">Register now!</button>
+                </form>
+            </div>
+            <div class="contact-info flow" style="--flow-space: 1rem;">
+                <p class="ff-text fs-400">1-555-555-3298</p>
+                <p class="ff-text fs-400">some@email.com</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
