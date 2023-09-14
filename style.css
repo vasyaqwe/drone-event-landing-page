@@ -8,7 +8,7 @@
 
 }
 
-@media(min-width: 55em) {
+@media(min-width: 60rem) {
     :root {
         --fs-900: 6.063rem;
         --fs-800: 6.063rem;
@@ -198,7 +198,7 @@ input {
     background-color: #fff;
 }
 
-@media (min-width: 55em) {
+@media (min-width: 60rem) {
     .primary-header {
         grid-template-columns: minmax(1rem, 20%) minmax(1rem, 45%) minmax(1rem, 45%);
     }
@@ -262,7 +262,7 @@ input {
     color: #b2dfa4;
 }
 
-@media(max-width: 55em) {
+@media(max-width: 60rem) {
     .primary-nav {
         padding-right: 2.688em;
         padding-top: 2.313em;
@@ -290,7 +290,7 @@ input {
     }
 }
 
-@media(min-width: 55em) {
+@media(min-width: 60rem) {
     .primary-header .blue-bg {
         position: relative;
     }
@@ -403,7 +403,7 @@ input {
     }
 }
 
-@media(min-width: 55em) {
+@media(min-width: 60rem) {
     .logo {
         font-size: 2.25rem;
     }
@@ -439,7 +439,7 @@ input {
     grid-template-columns: minmax(1rem, 15%) minmax(1rem, 1fr);
 }
 
-@media(min-width: 55em) {
+@media(min-width: 60rem) {
 
     .quote {
         display: grid;
@@ -468,7 +468,7 @@ input {
     background: linear-gradient(0deg, rgb(48 56 83 / .75), rgb(48 56 83 / .85));
 }
 
-@media(min-width: 55em) {
+@media(min-width: 60rem) {
     .quote-content {
         display: grid;
         place-items: center;
@@ -513,9 +513,9 @@ input {
 }
 
 .footage img {
-    height: 100%;
-    width: 100%;
+    aspect-ratio: 1/1;
     object-fit: cover;
+    align-self: stretch;
     max-height: 281px;
 }
 
@@ -523,7 +523,12 @@ input {
     max-width: 410px;
 }
 
-@media(min-width: 55em) {
+@media(min-width: 60rem) {
+    .footage img {
+        height: 100%;
+        width: 100%;
+    }
+
     .footage {
         grid-template-columns: minmax(1rem, 20%) minmax(1rem, 30%) minmax(1rem, 50%);
         padding-bottom: 12em;
@@ -627,7 +632,7 @@ form {
     width: 80%;
 }
 
-@media(min-width: 55em) {
+@media(min-width: 60rem) {
     .form {
         width: 60%;
     }
